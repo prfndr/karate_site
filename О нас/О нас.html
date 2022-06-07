@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КЛУБ БОЕВЫХ ИСКУССТВ</title>
+    <meta name="description" content="Тренирвоки по каратэ, боксу и рукопашному бою.">
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:71234567890">+7 (123) 456 78 90</a>
+                    <a class="header__email" href="#">e-mail@mail.ru</a>
+                    <a data-fancybox data-src="#myform" href="javascript:;" class="header__btn" href="#">Записаться на
+                        занятие</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header_logo">
+                        <a href="#">
+                            <img src="../img/logo.png" width="100" height="84" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li><a href="../index.html">Главная</a></li>
+                            <li><a href="../О нас/О нас.html">О нас</a></li>
+                            <li><a href="../Контакты/Контакты.html">Контакты</a></li>
+                            <li><a href="../Обратная связь/Обратная связь.html">Обратная связь</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="photo__report">
+        <h1>Наш фотоотчет</h1>
+    </div>
+    <div class="img__main">
+        <div class="img__main-desktop">
+            <a data-fancybox="gallery" data-src="../img/karate.jpg">
+                <img src="../img/karate.jpg" width="300" height="200" />
+            </a>
+
+            <a data-fancybox="gallery" data-src="../img/box.jpg">
+                <img src="../img/box.jpg" width="300" height="200" />
+            </a>
+
+            <a data-fancybox="gallery" data-src="../img/judo.jpg">
+                <img src="../img/judo.jpg" width="300" height="200" />
+            </a>
+        </div>
+        <div style="display:none">
+            <a data-fancybox="gallery" href="https://lipsum.app/id/61/1800x1200">
+                <img class="rounded" src="https://lipsum.app/id/61/120x80" />
+            </a>
+            <a data-fancybox="gallery" href="https://lipsum.app/id/62/1800x1200">
+                <img class="rounded" src="https://lipsum.app/id/62/120x80" />
+            </a>
+            <a data-fancybox="gallery" href="https://lipsum.app/id/63/1800x1200">
+                <img class="rounded" src="https://lipsum.app/id/63/120x80" />
+            </a>
+        </div>
+        <div class="img__main-media">
+            <a data-fancybox="gallery" data-src="../img/box.jpg">
+                <img src="../img/box.jpg" width="300" height="200" />
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            КЛУБ БОЕВЫХ ИСКУССТВ
+                        </div>
+                        <div class="footer__text">
+                            Тренирвоки по каратэ, боксу и рукопашному бою.
+                        </div>
+                        <a data-fancybox data-src="#myform" href="javascript:;" class="header__btn" href="#">
+                            Записаться на занятие
+                        </a>
+                        <ul class="footer__list">
+                            <li><a class="footer__phone" href="tel:71234567890">+7 (123) 456 78 90</a></li>
+                            <li><a href="#">e-mail@mail.ru</a></li>
+                            <li><a class="footer__adress" href="#">ул. Николая Ростовцева, 2 к.1, Тюмень, Тюменская
+                                    обл., 625051 </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__map">
+                        <iframe height="500px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.9925995037875!2d65.57279661297798!3d57.10298917583841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43bbe0ee28eb3a3d%3A0xd3795a0f3cff6b56!2sAthletic%20Gym!5e0!3m2!1sru!2sru!4v1642357090180!5m2!1sru!2sru"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <form id="myform" action="" method="post" autocomplete="off">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="number" name="phone" placeholder="Ваш телефон">
+        <button type="submit" name="btn">Отправить</button>
+    </form>
+
+    <div id="preloader">
+        <div id="preloader_preload"></div>
+    </div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script scr="../js/main.js?v=<?=time()?>"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
